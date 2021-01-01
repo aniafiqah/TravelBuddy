@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="tab">
+      <nav>
+        <li><a href="notifiction.html">Notification</a></li>
+        <li><a href="login.html"> Login</a></li>
+        <li><a href="registration.html">  Register  </a></li>
+      </nav>
+      </div>
+
+        <div class="nav_bar">
+          <ul>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="registration.html" id="onlink">Registration</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="title">
+          <br>
+          <div class="logo">
+            <img src="logo2.png" alt="travelbuddy" width="100px" height="100px">
+            <h1 id="proname">TRAVELBUDDY</h1>
+          </div>
+          <br>
+          <p id="reg">R E G I S T R A T I O N</p>
+          <br><br><br><br><br>
+
+      <div class="description">
+        <ul>
+          <li>- Strong data privacy.</li>
+          <li>- Enjoy the discount and promotion.</li>
+          <li>- Get every update from us by email.</li>
+        </ul>
+      </div>
+    <form>
+      <div class="container">
+            <h3>Sign Up for Free Now!</h3>
+            <br>
+            <p>Already have an account?
+            <a href="login.html">Login here!</a></p>
+            <br><br>
+            <label for="fn">First Name</label>
+            <br>
+            <input type="text" id="fn">
+            <br>
+            <label for="ln">Last Name</label>
+            <br>
+            <input type="text" id="ln">
+            <br>
+            <label for="an">Account Name (show on receipt)</label>
+            <br>
+            <input type="text" id="an">
+            <br>
+            <label for="phone">Phone Number</label>
+            <br>
+            <select name="noPhone" class="form-control">
+              <option data-code="+60" value="mas">+60</option>
+            </select>
+            <input type="text" name="phone" class="form-control">
+            <br>
+            <label for="email">Email Address</label>
+            <br>
+            <input type="text" id="email">
+            <br>
+            <label for="pw">Password</label>
+            <br>
+            <input type="password" id="pw" placeholder="**********">
+            <br>
+            <label for="cpw">Confirm Password</label>
+            <br>
+            <input type="password" id="cpw" placeholder="**********">
+            <br>
+
+            <button type="submit" id="btn" name="button">Sign Up</button>
+            </div>
+
+        </div>
+        </form>
+                    </header>
+
+    <script src="registration.js"></script>
+  </body>
+</html>
