@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+
+* {
+  font-family: 'Jost', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  /*box-sizing: border-box;*/
+}
+
+body {
+  width: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+header {
+  background-color: #ebded4;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 5px 20px;
+  transition: 0.5s;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.search {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  max-width: 550px;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search .input {
+  width: 89%;
+  height: 10px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.searchBtn {
+  background: #ffffff;
+  width: 10%;
+  position: relative;
+  cursor: pointer;
+}
+
+.searchBtn .fas {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #add4d4;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+ul {
+  margin: 0;
+  padding: 20px 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  padding: 10px 20px;
+  color: #000000;
+  background-color: #add4d4;
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #3d7d7c;
+}
+
+ul li a:hover {
+  color: #ffffff;
+  background-color: #3d7d7c;
+}
+
+.active {
+  background-color: #3d7d7c;
+}
+
+#sideBtn {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%; -50%);
+}
+
+.title h1 {
+  color: #000000;
+  font-size: 70px;
+}
+
+.description {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  text-align: center;
+  transform: translate(-50%; -50%);
+}
+
+.description p {
+  color: #000000;
+  font-size: 16px;
+}
+
+.properties h3 {
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.place-img {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  content: "";
+ clear: both;
+}
+
+.img {
+  width: 300px;
+  height: 500px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.image {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.place-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+
+.place-name p {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 1500px;
+}
+
+.allign {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.container {
+  float: left;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 320px;
+  height: 500px;
+  background-color: #3d7d7c;
+  border-radius: 10px;
+  box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 20px 10px;
+}
+
+.box:hover {
+  background-color: #8dd7e5;
+  transform-style: preserve-3d;
+  transition: scale(1.02);
+  transition: all ease 0.3s;
+}
+
+.package {
+  height: 250px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.details h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.details p {
+  margin-bottom: 50px;
+  text-align: center;
+}
