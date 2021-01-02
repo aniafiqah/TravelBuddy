@@ -2,6 +2,14 @@
 
 TravelBuddy is bla bla.
 
+Group Members:
+* MUHAMMAD IKRAM BIN IQBAL FITHRI   1912071
+* MMUHAMMAD IMRAN BIN MOHAMAD       1912837
+* NURULAIMI HANNANI BINTI MOHAMMAD  1912728
+* ANI AFIQAH BINTI ZAMRUD           1912406
+* NUR QHAISARA BINTI MOHD ZAKZAM    1913074
+
+
 ## Homepage
 
 Tulis details pasal homepage , purpose and apa features available 
