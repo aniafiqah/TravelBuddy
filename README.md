@@ -1,4 +1,4 @@
-# TravelBuddy
+# TravelBuddy:airplane:
 
 TravelBuddy is bla bla.
 
