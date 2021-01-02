@@ -1,6 +1,6 @@
 # TravelBuddy
 
-Foobar is a Python library for dealing with word pluralization.
+TravelBuddy is bla bla.
 
 ## Homepage
 
