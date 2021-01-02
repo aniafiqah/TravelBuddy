@@ -4,7 +4,8 @@ TravelBuddy is bla bla.
 
 ## Homepage
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Tulis details pasal homepage , purpose and apa features available 
+:arrow_right:[Homepage](https://meran0.github.io/TravelBuddy/) .
 
 ```javascript
 var num;
