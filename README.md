@@ -18,7 +18,6 @@ var num;
 objective: This page is where the user can put their details to book for their travelling.
 
 features:
-
 * Form validation
 * Google Maps API
 
