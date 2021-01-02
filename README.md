@@ -19,8 +19,8 @@ objective: This page is where the user can put their details to book for their t
 
 features:
 
-*Form validation
-*Google Maps API
+* Form validation
+* Google Maps API
 
 ```python
 import foobar
