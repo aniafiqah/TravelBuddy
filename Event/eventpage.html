@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+    <title>Event</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <!-- <link rel="stylesheet" href="eventpage-style.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!--carousel script-->
+
+    <!--end carousel script-->
+  </head>
+  <body>
+    <header>
+      <div class="tab">
+        <nav>
+          <li><a href="notifiction.html">Homepage</a></li>
+          <li><a href="login.html"> Login</a></li>
+          <li><a href="registration.html"> Register </a></li>
+        </nav>
+      </div>
+
+      <div class="nav_bar">
+        <ul>
+          <li><a id="onlink" href="event.html">Event</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="Contact.html" >Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div>
+      <div class="title">
+        <div class="logo">
+          <img src="logo2.png" alt="travelbuddy" width="100px" height="100px">
+          <h1 id="proname">TRAVELBUDDY</h1>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br><br>
+      <h1 style="text-align: center;">EVENTS & PROMOTIONS : WHAT'S HAPPENING?</h1><br>
+      <p style="width:80%;text-align: center;margin-left:auto;margin-right:auto;"></p>
+      <br><br>
+    </div>
+    <!-- Slider -->
+    <div class="slider">
+      <div class="img-slider">
+        <div class="slide active">
+          <img src="tryklcc.jpg" alt="">
+          <div class="info">
+            <h2>SEMINAR:TIPS & TRICK DURING PANDEMIC</h2>
+            <p>Location : Exhibition Hall,KLCC</p>
+            <p>Date : 10th October 2020 </p>
+            <p>Time : 8.00PM - 10.00PM</p>
+            <p>Price : RM20 Per Admission</p>
+
+          </div>
+        </div>
+        <div class="slide">
+          <img src="snorkel.jpg" alt="">
+          <div class="info">
+            <h2>SNORKEL WITH THE FISH </h2>
+            <p>The session would help the beginners to cover up three aspects that are nescessary to getting the most out of your snorkeling :</p>
+            <p>1.Snorkeling skills</p>
+            <p>2. Best places to go snorkeling</p>
+            <p>3. Snorkeling gear</p>
+            <p>The session would be held via Google Meet platform at 10AM  </p>
+            <p>The right timing would be inform later in less than 2 weeks </p>
+            <p>STAY TUNED !!!!!</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="luckydraw.png" alt="">
+          <div class="info">
+            <h2>LUCKY DRAW CONTEST</h2>
+            <p>TERMS AND CONDITIONS :</p>
+            <P>1.Each visitor will only be entitle to win only 1 unit of the prize item</P>
+            <p>2.Only booking made during the lucky draw contest are entitled to participate</p>
+            <p>3.Winner will be notified through the contact details stated by the participant</p>
+          </div>
+        </div>
+        <div class="slide"  >
+          <img src="island1.jpg" alt="">
+          <div class="info" >
+            <h2>ISLAND HOPPING</h2>
+            <p>Location : Around Pulau Langkawi </p>
+            <p>Date : 20th January 2021 </p>
+            <p>Time : 8.00AM - 6.00PM</p>
+            <p>Price : RM150 Per Admission</p>
+          <p></p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="info">
+            <h2>STAY TUNED FOR MORE EVENTS</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="navigation">
+          <div class="btn active"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+        </div>
+      </div>
+    </div>
+    <!-- slider ends -->
+    <br>
+    <br>
+    <!-- Tabs for event -->
+    <div class="tabsbox">
+      <button class="tablink" onclick="openPage('Annual', this, 'white')" id="defaultOpen">Annual</button>
+      <button class="tablink" onclick="openPage('Monthly', this, 'white')" >Monthly</button>
+      <button class="tablink" onclick="openPage('LimitedTime', this, 'white')" >Limited-Time</button>
+
+      <div id="Annual" class="tabcontent">
+        <p style="font-family:verdana"><center>We here provide you offers and will shock you for the amount of discount that we provide to you,dont miss it !!!!!</center></p>
+
+        <div class="eventcard">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="langkawi1.jpg" alt="Event" style="width:250px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p><button>Book for Event</button></p>
+                <br>
+                <h1>Island Hopping</h1>
+                <br>
+                <p>5 island in total around langkawi </p>
+                <br>
+                <p class="budget">RM200 (Excluding tax)</p>
+                <br>
+                <p> 2 days in total</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="fishing.jpg" alt="Event" style="width:250px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p><button>Book for Event</button></p>
+                <br>
+                <h1>Fishing Crossing</h1>
+                <br>
+                <p>4 days session </p>
+                <br>
+                <p class="budget">RM 250.00 (Equipment included)</p>
+                <br>
+                <p>Limited to 40 participant</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="hunting.jpg" alt="Event" style="width:250px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p><button>Book for Event</button></p>
+                <br>
+                <h1>Hunting Season</h1>
+                <br>
+                <p>Mid summer 2020</p>
+                <br>
+                <p class="budget">RM 100.00</p>
+                <br>
+                <p>Limited to 60 participants</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Monthly" class="tabcontent">
+        <p style="font-family:verdana" ><center>Save now up to 30% ! Only for this Month ! (New Event Resets every Month)</center></p>
+        <div class="eventcard">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="forest1.jpg" alt="Event" style="width:250px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p><button>Book for Event</button></p>
+                <br>
+                <h1>Discover the nature</h1>
+                <br>
+                <p>Family package : family of 4 - RM280</p>
+                <br>
+                <p class="budget">jungle trekking (RM 75 per person)</p>
+                <br>
+                <p>Original price RM 125</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="expert.jpg" alt="Event" style="width:250px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p><button>Book for Event</button></p>
+                <br>
+                <h1>Tourism Seminar</h1>
+                <br>
+                <p>3 hours session every sunday on third week </p>
+                <br>
+                <p class="budget">RM 50.00 per person</p>
+                <br>
+                <p>Mr X is an experienced tourist adventurer</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="night.jpg" alt="Event" style="width:250px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p><button>Book for Event</button></p>
+                <br>
+                <h1>Night Safari</h1>
+                <br>
+                <p>10.00pm-12.00am every sunday of the third week</p>
+                <br>
+                <p class="budget">RM 40.00</p>
+                <br>
+                <p>50% discount for 3 people purchases</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="LimitedTime" class="tabcontent">
+      <p><center>Beat The Clock Promotion ( 25th December 2020 - 12th January 2021 )</center></p>
+        <div class="eventcard">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="hiking.jpg" alt="Event" style="width:250px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p><button>Book for Event</button></p>
+                <br>
+                <h1>Hike With Mike</h1>
+                <br>
+                <p>Limited to only 50 participants</p>
+                <br>
+                <p class="budget">Discount price : RM 100 per person</p>
+                <br>
+                <p>Original price : RM 180 per person</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="malacca.jpg" alt="Event" style="width:250px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p><button>Book for Event</button></p>
+                <br>
+                <h1>3 Days to the historical Malacca</h1>
+                <br>
+                <p>Places including : A'Famosa,Encore Melaka,Serama Adventure Park,Botanical Park</p>
+                <br>
+                <p class="budget">RM 300 per person</p>
+                <br>
+
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="zoo.jpg" alt="Event" style="width:250px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <p><button>Book for Event</button></p>
+                <br>
+                <h1>Zoo Visit</h1>
+                <br>
+                <p>Location : Zoo Negara</p>
+                <br>
+                <p class="budget">RM 40 per admission</p>
+                <br>
+                <p>Limited to one bus travel(30 person)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+    <br
+    <footer class="footer">
+      <h3>©Copyright TravelBuddy 2020</h3>
+    </footer>
+      <script src="eventpage.js."></script>
+      <script src="script.js"></script>
+  </body>
+</html>
