@@ -6,8 +6,9 @@ TravelBuddy is bla bla.
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-```bash
-pip install foobar
+```javascript
+var num;
+//ni cara nak tulis code snippet
 ```
 
 ## Usage
