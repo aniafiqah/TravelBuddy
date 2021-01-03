@@ -97,6 +97,7 @@ objective: This page is where the user can put their details to book for their t
 features:
 * Form validation
 * Google Maps API
+* Dynamic screen size
 
 ```python
 import foobar
