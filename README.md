@@ -12,7 +12,7 @@ Group Members:
 * ANI AFIQAH BINTI ZAMRUD
   * 1912406 | :arrow_right:[Login & Registration](https://meran0.github.io/TravelBuddy/Login/login.html)
 * NUR QHAISARA BINTI MOHD ZAKZAM
-  * 1913074 | :arrow_right:[Homepage](https://meran0.github.io/TravelBuddy/)
+  * 1913074 | :arrow_right:[Homepage](https://github.com/meran0/TravelBuddy#homepage)
 
 
 ## Homepage
