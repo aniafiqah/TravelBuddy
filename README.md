@@ -26,6 +26,70 @@ var num;
 //ni cara nak tulis code snippet
 ```
 
+## Event
+
+objective: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+features:
+* Lorem
+* Lorem
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Login
+
+objective: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+features:
+* Lorem
+* Lorem
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Registration
+
+objective: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+features:
+* Lorem
+* Lorem
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contact
+
+objective: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+features:
+* Lorem
+* Lorem
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
 ## Booking
 
 objective: This page is where the user can put their details to book for their travelling.
