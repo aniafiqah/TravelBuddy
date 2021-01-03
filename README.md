@@ -4,7 +4,7 @@ TravelBuddy is bla bla.
 
 Group Members:
 * MUHAMMAD IKRAM BIN IQBAL FITHRI   
-  * 1912071
+  * 1912071 | :arrow_right:[Event](https://meran0.github.io/TravelBuddy/Event/eventpage.html)
 * MMUHAMMAD IMRAN BIN MOHAMAD
   * 1912837 | :arrow_right:[Booking](https://meran0.github.io/TravelBuddy/Booking/Booking.html)
 * NURULAIMI HANNANI BINTI MOHAMMAD
