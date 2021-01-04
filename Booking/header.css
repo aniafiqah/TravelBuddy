@@ -178,6 +178,25 @@ letter-spacing: 10px;
   margin: 0 auto;
 }
 
+.location-selected{
+  color: white;
+  font-weight: bold;
+}
+#city-chose{
+  margin-top:30px;
+  margin-left:100px;
+  margin-right:100px;
+  text-align: center;
+}
+
+#state-chose{
+  margin-top:10px;
+  margin-left:100px;
+  margin-right:100px;
+  text-align: center;
+}
+
+
 .fl-right {
   float: right;
   width: 40%;
@@ -214,7 +233,7 @@ letter-spacing: 10px;
   transition: 0.3s;
 }
 
-#button1:hover, .tour-details:hover, .select-random:hover, .find-location-box:hover, .tourguide-box:hover, .payment-box:hover {
+#button2:hover, #button1:hover, .tour-details:hover, .select-random:hover, .find-location-box:hover, .tourguide-box:hover, .payment-box:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -308,12 +327,24 @@ letter-spacing: 10px;
   border-radius: 20px;
 }
 
-button {
+#button1 {
   margin-top: 400px;
   margin-left: 80px;
   text-align: center;
   width: 80%;
   margin-bottom: 20px;
+  padding: 12px;
+  border: 0px solid #ccc;
+  border-radius: 20px;
+  background-color: #88906B;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+#button2{
+  text-align: center;
+  width: 96%;
+  margin: 20px;
   padding: 12px;
   border: 0px solid #ccc;
   border-radius: 20px;
@@ -491,7 +522,7 @@ span.price {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 5% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */

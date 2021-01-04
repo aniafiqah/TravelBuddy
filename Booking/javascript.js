@@ -5,44 +5,48 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
+$("#button2").click(function(e) {
+  window.location.href
+});
+
+$("#button1").click(function(f) {
+  /*
+    if($("#Country").val()==""||
+    $("#State").val()==""||
+    $("#Cities").val()==""||
+    $("#Pax").val()==""||
+    $("#Date").val()==""||
+    typeof $("input[name='radio']:checked").val() === 'undefined'||
+    $("#cname").val()==""||
+    $("#ccnum").val()==""||
+    $("#expmonth").val()==""||
+    $("#expyear").val()==""||
+    $("#cvv").val()==""){
+
+      e.preventDefault();
+      alert("Please fill up all details correctly!");
+    }
+    else{
+      */
+  modal.style.display = "block";
+
+  console.log("button clicked");
+  console.log("country: " + $("#Country").val());
+  console.log("State: " + $("#State").val());
+  console.log("City: " + $("#Cities").val());
+  console.log("Pax: " + $("#pax").val());
+  console.log("Date: " + $("#birthday").val());
+  console.log("TourGuide: " + $("input[name='radio']:checked").val());
+  console.log("cname: " + $("#cname").val());
+  console.log("ccnum: " + $("#ccnum").val());
+  console.log("expmonth: " + $("#expmonth").val());
+  console.log("expyear: " + $("#expyear").val());
+  console.log("cvv: " + $("#cvv").val());
 
 
-$("#button1").click(function(e){
-
-  if($("#Country").val()==""||
-  $("#State").val()==""||
-  $("#Cities").val()==""||
-  $("#Pax").val()==""||
-  $("#Date").val()==""||
-  typeof $("input[name='radio']:checked").val() === 'undefined'||
-  $("#cname").val()==""||
-  $("#ccnum").val()==""||
-  $("#expmonth").val()==""||
-  $("#expyear").val()==""||
-  $("#cvv").val()==""){
-
-    e.preventDefault();
-  }
-  else{
-    modal.style.display = "block";
-
-console.log("button clicked");
-console.log("country: "+ $("#Country").val());
-console.log("State: "+ $("#State").val());
-console.log("City: "+ $("#Cities").val());
-console.log("Pax: "+ $("#pax").val());
-console.log("Date: "+ $("#birthday").val());
-console.log("TourGuide: "+ $("input[name='radio']:checked").val());
-console.log("cname: "+ $("#cname").val());
-console.log("ccnum: "+ $("#ccnum").val());
-console.log("expmonth: "+ $("#expmonth").val());
-console.log("expyear: "+ $("#expyear").val());
-console.log("cvv: "+ $("#cvv").val());
 
 
-
-
-}
+  //}
 
 });
 
@@ -263,10 +267,23 @@ var subjectObject = {
   }
 }
 
-window.onload = function() {
 
-  let map;
-  //initMap();
+window.onload = function() {
+  var malaysia = new google.maps.LatLng(4.1093195, 109.45547499999998);
+  var WP = new google.maps.LatLng(3.13192,101.684059);
+  var TG = new google.maps.LatLng(5.3302,103.1408);
+  var SL = new google.maps.LatLng(3.509247,101.524803);
+  var SR = new google.maps.LatLng(1.553110,110.345032);
+  var SA = new google.maps.LatLng(5.420404,116.796783);
+  var PP = new google.maps.LatLng(5.285153,100.456238);
+  var PL = new google.maps.LatLng(6.443589,100.216599);
+  var PR = new google.maps.LatLng(4.693950,101.117577);
+  var PH = new google.maps.LatLng(3.974341,102.438057);
+  var NS = new google.maps.LatLng(2.731813,102.252502);
+  var ML = new google.maps.LatLng(2.200844,102.240143	);
+  var KL = new google.maps.LatLng(6.125397,102.238068);
+  var KE = new google.maps.LatLng(6.155672,100.569649);
+  var JO = new google.maps.LatLng(1.527549,103.745476);
 
   var countrySel = document.getElementById("Country");
   var StateSel = document.getElementById("State");
@@ -274,24 +291,156 @@ window.onload = function() {
   var cityy = document.querySelector('#city-chose');
   var statee = document.querySelector('#state-chose');
 
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: malaysia,
+    zoom: 4
+  });
+
 
   CitySel.addEventListener('change', (event) => {
     cityy.textContent = $("#Cities").val();
     statee.textContent = $("#State").val();
+});
 
-    console.log("City: "+ $("#Cities").val());
+  StateSel.addEventListener('change', (event) => {
 
+    switch ($("#State").val()) {
+      case "Wilayah Persekutuan": {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: WP,
+          zoom: 8
+        });
+      }
+      break;
+
+    case "Terengganu": {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: TG,
+        zoom: 8
+      });
+    }
+    break;
+
+    case "Selangor": {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: SL,
+        zoom: 8
+      });
+    }
+    break;
+
+    case "Johor": {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: JO,
+        zoom: 8
+      });
+    }
+    break;
+
+
+  case "Kedah": {
     map = new google.maps.Map(document.getElementById("map"), {
-      center: { lat: -34.397, lng: 150.644 },
-      zoom: 10,
+      center: KE,
+      zoom: 8
     });
+  }
+  break;
+
+
+
+  case "Kelantan": {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: KL,
+      zoom: 8
+    });
+  }
+  break;
+
+
+  case "Melaka": {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: ML,
+      zoom: 8
+    });
+  }
+  break;
+
+
+  case "Negeri Sembilan": {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: NS,
+      zoom: 8
+    });
+  }
+  break;
+
+
+  case "Pahang": {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: PH,
+      zoom: 8
+    });
+  }
+  break;
+
+
+
+  case "Perak": {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: PR,
+      zoom: 8
+    });
+  }
+  break;
+
+
+
+  case "Perlis": {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: PL,
+      zoom: 8
+    });
+  }
+  break;
+
+
+  case "Pulau Pinang": {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: PP,
+      zoom: 8
+    });
+  }
+  break;
+
+
+  case "Sabah": {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: SA,
+      zoom: 8
+    });
+  }
+  break;
+
+
+  case "Sarawak": {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: SR,
+      zoom: 8
+    });
+  }
+  break;
+
+
+
+
+
+    }
+
+
 
 
   });
 
-  function initMap() {
-
-  }
 
   for (var x in subjectObject) {
     countrySel.options[countrySel.options.length] = new Option(x, x);
