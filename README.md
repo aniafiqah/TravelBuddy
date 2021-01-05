@@ -154,7 +154,7 @@ nav li a {
 }
 ```
 
-## Title
+## Title & Logo
 
 HTML
 ```html
