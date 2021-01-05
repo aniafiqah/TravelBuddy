@@ -207,3 +207,45 @@ CSS
 
 
 ## Footer
+
+HTML
+```html
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<footer>
+  <div class="footer">
+    <ul>
+      <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+    </ul>
+  </div>
+  <p>Copyright ©️2020 TravelBuddy</p>
+</footer>
+```
+
+CSS
+```css
+footer {
+  height: 80px;
+  background-color: #ebded4;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .footer {
+    text-align: center;
+}
+
+footer .footer li {
+  list-style: none;
+  margin: 10px 20px;
+  display: inline-block;
+  font-size: 20px;
+  /* padding: 20px 10px; */
+  transition: .5s;
+}
+
+footer .footer li a {
+  color: #000;
+}
+```
