@@ -54,7 +54,7 @@ body{
   font-size: 15px;
 }
 
-.box button {
+input[type=button] {
   border-radius: 20px;
   background-color: #ebded4;
   width: 20%;
