@@ -154,4 +154,56 @@ nav li a {
 }
 ```
 
+## Title
 
+HTML
+```html
+<div class="title"><br>
+
+    <div class="logo">
+      <img src="travel1.png" alt="travelbuddy" width="100px" height="100px">
+      <h1 id="proname">TRAVELBUDDY</h1>
+    </div><br>
+
+    <p id="con">C O N T A C T</p>
+    <br><br><br><br><br>
+
+  </div><br>
+```
+
+CSS
+```css
+.title {
+  float: above;
+  text-align: center;
+  line-height: 0.5;
+  padding-top: 30px;
+}
+
+.title p {
+  letter-spacing: 5px;
+}
+
+.title .logo {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  /* margin: 0 auto; */
+  /* padding-left: 25%; */
+  justify-content: center;
+  align-items: center;
+}
+
+#proname {
+  font-family: 'Schoolbell', cursive;
+  font-size: 5em;
+  letter-spacing: 10px;
+}
+
+#prename {
+  font-size: 3em;
+}
+```
+
+
+## Footer
