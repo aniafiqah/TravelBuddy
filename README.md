@@ -25,18 +25,18 @@ HTML
     <header>
     <div class="tab">
       <nav>
-        <li><a href="homepage.html">Homepage</a></li>
-        <li><a href="login.html"> Login</a></li>
-        <li><a href="registration.html"> Register </a></li>
+        <li><a href="../index.html">Homepage</a></li>
+        <li><a href="../Login/login.html"> Login</a></li>
+        <li><a href="../Registration/registration.html"> Register </a></li>
       </nav>
     </div>
 
     <div class="nav_bar">
       <ul>
-        <li><a href="event.html">Event</a></li>
-        <li><a href="registration.html">Registration</a></li>
-        <li><a href="booking.html">Booking</a></li>
-        <li><a href="Contact.html" id="onlink">Contact</a></li>
+        <li><a href="../Event/eventpage.html">Event</a></li>
+        <li><a href="../Registration/registration.html">Registration</a></li>
+        <li><a href="../Booking/Booking.html">Booking</a></li>
+        <li><a href="../Contact/Contact.html" id="onlink">Contact</a></li>
       </ul>
     </div>
   </header>
