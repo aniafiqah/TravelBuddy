@@ -27,6 +27,7 @@ var citiess = document.getElementById("cities-text");
 var paxx = document.getElementById("pax-text");
 var datee = document.getElementById("date-text");
 var tourr = document.getElementById("tour-text");
+var namee = document.getElementById("name-text");
 
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -114,6 +115,7 @@ $("#button1").click(function(e) {
   paxx.textContent = $("#pax").val();
   datee.textContent = $("#birthday").val();
   tourr.textContent = $("input[name='radio']:checked").val();
+  namee.textContent = $("cname").val();
 
 //  }
 
