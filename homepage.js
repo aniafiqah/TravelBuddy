@@ -9,7 +9,7 @@ function closeNav() {
 }
 
 function myFunction() {
-  location.href = "eventpage.html";
+  location.href = "./Event/eventpage.html";
 }
 
 var mybutton = document.getElementById("TopMenu");
