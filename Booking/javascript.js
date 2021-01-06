@@ -1,3 +1,22 @@
+var mybutton = document.getElementById("TopMenu");
+
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 var countryy = document.getElementById("country-text");
@@ -36,7 +55,7 @@ $("#button1").click(function(e) {
     $("#expmonth").val()==""||
     $("#expyear").val()==""||
     $("#cvv").val()==""||
-    getlength(ccnum)!=19 ||
+    getlength(ccnum)!=16 ||
     month<=0 ||
     month>12 ||
     year<=0 ||
