@@ -1,16 +1,49 @@
+var mybutton = document.getElementById("TopMenu");
+
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
+var countryy = document.getElementById("country-text");
+
+function getlength(number) {
+    return number.toString().length;
+}
 
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-$("#button2").click(function(e) {
+$("#button2").click(function(f) {
   window.location.href
 });
 
-$("#button1").click(function(f) {
-  /*
+$("#button1").click(function(e) {
+
+  var month = parseInt($("#expmonth").val());
+  var year = parseInt($("#expyear").val());
+  var cvv = parseInt($("#cvv").val());
+  var ccnum = parseInt($("#ccnum").val());
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
     if($("#Country").val()==""||
     $("#State").val()==""||
     $("#Cities").val()==""||
@@ -21,16 +54,28 @@ $("#button1").click(function(f) {
     $("#ccnum").val()==""||
     $("#expmonth").val()==""||
     $("#expyear").val()==""||
-    $("#cvv").val()==""){
+    $("#cvv").val()==""||
+    getlength(ccnum)!=16 ||
+    month<=0 ||
+    month>12 ||
+    year<=0 ||
+    getlength(year) >= 5 ||
+    getlength(year) != 4 ||
+    cvv<= 0 ||
+    getlength(cvv) >= 4 ||
+    getlength(cvv) != 3
+    ){
+      console.log("masuk if {");
 
       e.preventDefault();
-      alert("Please fill up all details correctly!");
+      confirm("Please fill up all details correctly!");
     }
+
     else{
-      */
+
   modal.style.display = "block";
 
-  console.log("button clicked");
+  console.log("masuk else {");
   console.log("country: " + $("#Country").val());
   console.log("State: " + $("#State").val());
   console.log("City: " + $("#Cities").val());
@@ -44,9 +89,9 @@ $("#button1").click(function(f) {
   console.log("cvv: " + $("#cvv").val());
 
 
+  countryy.textContent = $("#Country").val();
 
-
-  //}
+  }
 
 });
 
@@ -310,6 +355,12 @@ window.onload = function() {
           center: WP,
           zoom: 8
         });
+        marker = new google.maps.Marker({
+          map,
+          draggable: false,
+          animation: google.maps.Animation.DROP,
+          position: WP,
+        });
       }
       break;
 
@@ -317,6 +368,12 @@ window.onload = function() {
       map = new google.maps.Map(document.getElementById("map"), {
         center: TG,
         zoom: 8
+      });
+      marker = new google.maps.Marker({
+        map,
+        draggable: false,
+        animation: google.maps.Animation.DROP,
+        position: TG,
       });
     }
     break;
@@ -326,6 +383,12 @@ window.onload = function() {
         center: SL,
         zoom: 8
       });
+      marker = new google.maps.Marker({
+        map,
+        draggable: false,
+        animation: google.maps.Animation.DROP,
+        position: SL,
+      });
     }
     break;
 
@@ -333,6 +396,12 @@ window.onload = function() {
       map = new google.maps.Map(document.getElementById("map"), {
         center: JO,
         zoom: 8
+      });
+      marker = new google.maps.Marker({
+        map,
+        draggable: false,
+        animation: google.maps.Animation.DROP,
+        position: JO,
       });
     }
     break;
@@ -342,6 +411,12 @@ window.onload = function() {
     map = new google.maps.Map(document.getElementById("map"), {
       center: KE,
       zoom: 8
+    });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: KE,
     });
   }
   break;
@@ -353,6 +428,12 @@ window.onload = function() {
       center: KL,
       zoom: 8
     });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: KL,
+    });
   }
   break;
 
@@ -361,6 +442,12 @@ window.onload = function() {
     map = new google.maps.Map(document.getElementById("map"), {
       center: ML,
       zoom: 8
+    });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: ML,
     });
   }
   break;
@@ -371,6 +458,12 @@ window.onload = function() {
       center: NS,
       zoom: 8
     });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: NS,
+    });
   }
   break;
 
@@ -379,6 +472,12 @@ window.onload = function() {
     map = new google.maps.Map(document.getElementById("map"), {
       center: PH,
       zoom: 8
+    });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: PH,
     });
   }
   break;
@@ -390,6 +489,12 @@ window.onload = function() {
       center: PR,
       zoom: 8
     });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: PR,
+    });
   }
   break;
 
@@ -400,6 +505,12 @@ window.onload = function() {
       center: PL,
       zoom: 8
     });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: PL,
+    });
   }
   break;
 
@@ -408,6 +519,12 @@ window.onload = function() {
     map = new google.maps.Map(document.getElementById("map"), {
       center: PP,
       zoom: 8
+    });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: PP,
     });
   }
   break;
@@ -418,6 +535,12 @@ window.onload = function() {
       center: SA,
       zoom: 8
     });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: SA,
+    });
   }
   break;
 
@@ -426,6 +549,12 @@ window.onload = function() {
     map = new google.maps.Map(document.getElementById("map"), {
       center: SR,
       zoom: 8
+    });
+    marker = new google.maps.Marker({
+      map,
+      draggable: false,
+      animation: google.maps.Animation.DROP,
+      position: SR,
     });
   }
   break;

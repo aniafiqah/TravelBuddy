@@ -56,7 +56,7 @@ background: linear-gradient(180deg, rgba(235,222,212,1) 0%, rgba(189,189,189,1) 
 }
 
 .nav_bar ul li {
-  margin-top: 3.6vh;
+  margin-top: 8.8vh;
   float: left;
   font-size: 16px;
   font-weight: bold;
@@ -157,20 +157,6 @@ nav li a {
 */
 }
 
-.title {
-  height: 290px;
-  width: 95%;
-  margin: 0 auto;
-}
-
-#company{
-  text-align: center;
-  font-size: 90px;
-
-font-family: 'Schoolbell', cursive;
-font-size: 5em;
-letter-spacing: 10px;
-}
 
 .findlocation, .tourguide, .payment {
   height: 600px;
@@ -199,7 +185,7 @@ letter-spacing: 10px;
 
 .fl-right {
   float: right;
-  width: 40%;
+  width: 38%;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-right: 40px;
@@ -226,7 +212,7 @@ letter-spacing: 10px;
   border: solid 4px #BDBDBD;
   border-radius: 20px;
   height: 500px;
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
   background-color: #B8ADA6;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -251,8 +237,9 @@ letter-spacing: 10px;
   transition: 0.3s;
 }
 
+
 .tour-details {
-  width: 90%;
+  width: 80%;
   height: 30%;
   padding: 20px;
   border: 2px solid #3D7D7C;
@@ -303,7 +290,7 @@ letter-spacing: 10px;
 
 .tour-left {
   float: left;
-  width: 60%;
+  width: 55%;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 40px;
@@ -416,8 +403,9 @@ span.price {
   color: grey;
 }
 
-.exp-right{
-
+.exp-right,.exp-left{
+width: 30%;
+margin-left: 30px;
 }
 
 .select-radio {
@@ -553,7 +541,7 @@ span.price {
 
 .section-title ul li {
   margin: 5px;
-  margin-left: 15px;
+  margin-left: 145px;
   float: left;
   font-size: 16px;
   font-weight: bold;
@@ -577,4 +565,79 @@ span.price {
   border-color: black;
   border-bottom: none;
   height: 2px;
+}
+
+footer {
+  height: 80px;
+  background-color: #ebded4;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .footer {
+    text-align: center;
+}
+
+footer .footer li {
+  list-style: none;
+  margin: 10px 20px;
+  display: inline-block;
+  font-size: 20px;
+  /* padding: 20px 10px; */
+  transition: .5s;
+}
+
+footer .footer li a {
+  color: #000;
+}
+
+.title {
+  float: above;
+  text-align: center;
+  line-height: 0.5;
+  padding-top: 30px;
+}
+
+.title p {
+  letter-spacing: 5px;
+}
+
+.title .logo {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  /* margin: 0 auto; */
+  /* padding-left: 25%; */
+  justify-content: center;
+  align-items: center;
+}
+
+#proname {
+  font-family: 'Schoolbell', cursive;
+  font-size: 5em;
+  letter-spacing: 10px;
+}
+
+#prename {
+  font-size: 3em;
+}
+
+#TopMenu {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #b8ada6;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#TopMenu:hover {
+  background-color: #555;
 }

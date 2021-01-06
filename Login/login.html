@@ -2,57 +2,76 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
-    <style media="screen">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    </style>
   </head>
   <body>
     <header>
       <div class="tab">
       <nav>
-        <li><a href="homepage.html">Homepage</a></li>
-        <li><a href="login.html"> Login</a></li>
-        <li><a href="registration.html">  Register  </a></li>
+        <li><a href="../index.html">Homepage</a></li>
       </nav>
       </div>
 
-
         <div class="nav_bar">
           <ul>
-            <li><a href="event.html">Event</a></li>
-            <li><a href="registration.html">Registration</a></li>
-            <li><a href="booking.html">Booking</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../Event/eventpage.html">Event</a></li>
+            <li><a href="../Registration/registration.html" id="onlink">Registration</a></li>
+            <li><a href="../Booking/Booking.html">Booking</a></li>
+            <li><a href="../Contact/Contact.html">Contact</a></li>
           </ul>
         </div>
           </header>
-        <div class="title">
-          <br>
+
+        <div class="content">
+          <div class="title">
           <div class="logo">
             <img src="logo2.png" alt="travelbuddy" width="100px" height="100px">
             <h1 id="proname">TRAVELBUDDY</h1>
           </div>
-          <form>
+          <br>
+          <p id="log">L O G I N</p>
+          <br><br><br><br><br>
+          </div>
+          <form class="form" action="https://meran0.github.io/TravelBuddy/Booking/booking.html">
             <div class="container">
-                  <h3>LOGIN</h3>
+              <div class="container-box">
+
+                  <div class="fl-left">
+
+                  <label for="email" style="color:white; padding-left: 5px;">Email Address</label>
                   <br>
-                  <label for="email">Email Address</label>
+                  <input type="text" id="email" required>
                   <br>
-                  <input type="text" id="email">
+                  <label for="pw" style="color:white; padding-left: 5px;">Password</label>
                   <br>
-                  <label for="pw">Password</label>
-                  <br>
-                  <input type="password" id="pw" placeholder="**********">
+                  <input type="password" id="pw" required>
                   <br>
 
-
-                  <button type="submit" id="btn" name="button">Sign Up</button>
+                  <div class="button">
+                    <input class="submit" type="submit" value="LOGIN">
                   </div>
 
+                      </div>
+                  </div>
+                </div>
               </div>
               </form>
 
   </body>
+
+  <footer>
+  <div class="footer">
+    <ul>
+      <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a></li>
+    </ul>
+  </div>
+  <p>Copyright ©️2020 TravelBuddy</p>
+</footer>
+
 </html>

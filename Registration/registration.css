@@ -40,12 +40,17 @@ header {
   /* padding-left: 25%; */
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 #proname {
   font-family: 'Schoolbell', cursive;
   font-size: 5em;
   letter-spacing: 10px;
+}
+
+.content {
+  background: #f7f6f6;
 }
 
 .title p{
@@ -58,18 +63,42 @@ header {
 }
 
 .container {
-  width: 80%;
-  justify-content: left;
-  padding: 30px;
+  width: 90%;
   margin: 0 auto;
-  height: auto;
-  border-radius: 20px;
-  background-color: #add4d4;
+  padding: 20px;
+  /* height: 800px; */
 }
 
-.container .form-control {
-  width: 15%;
+.container-box {
+  border-radius: 20px;
+  height: 800px;
+  width: 65%;
+  margin: 0 auto;
+  background-color: #add4d4;
+  box-shadow: 0 4px 8px 0 #9e9e9e;
+  transition: 0.3s;
 }
+
+.line {
+  padding-left: 50px;
+}
+
+.fl-left {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  width: 100%;
+  float: left;
+}
+
+#fn, #ln, #an, #phone, #email, #pw, #cpw, #btn {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
 
 .container button {
   border-radius: 20px;
@@ -83,17 +112,19 @@ header {
   cursor: pointer;
 }
 
-.container input[type=text], input[type=password], select {
-  width:90%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  /* display: inline-block; */
-  border: 1px solid black;
-  border-radius: 5px;
-  /* box-sizing: border-box; */
+.container button a {
+  color: #000000;
 }
 
-
+.container input[type=text], input[type=password], select {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
 
 nav {
   float: right;
@@ -132,7 +163,7 @@ nav li a {
 }
 
 .nav_bar ul li {
-  margin-top: 3.6vh;
+  margin-top: 8.8vh;
   float: left;
   font-size: 16px;
   font-weight: bold;
@@ -174,4 +205,33 @@ nav li a {
 
 .nav_bar ul li a#onlink:hover {
   color: #000000;
+}
+
+footer {
+  height: 80px;
+  background-color: #ebded4;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .footer {
+    text-align: center;
+}
+
+footer .footer li {
+  list-style: none;
+  margin: 10px 20px;
+  display: inline-block;
+  font-size: 20px;
+  /* padding: 20px 10px; */
+  transition: .5s;
+}
+
+footer .footer li a {
+  color: #000;
+}
+
+footer .footer li a:hover{
+  color: #99C0C0;
+  transition: .5s;
 }

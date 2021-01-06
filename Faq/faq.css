@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 body{
-  background: #f6f6f6;
+  background: linear-gradient(#add4d4, #b8ada6);
 }
 
-/* p1 {
-  padding: 0px 20px 20px;
-} */
-
 .box{
-  width: 500px;
+  width: 650px;
   margin: 100px auto;
   background: #fff;
   border-radius:7px;
   box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+}
+
+.box h3 {
+  margin-left: 20px;
 }
 
 .box .heading{
@@ -31,7 +31,7 @@ body{
 }
 
 .faqs{
-  padding: 0px 20px 20px;
+  padding: 0px 20px 10px;
 }
 
 /* :-webkit-details-marker{
@@ -48,6 +48,11 @@ details{
   font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
+}
+
+details:hover{
+  background-color: #f1e7e0;
+  font-size: 16px;
 }
 
 details summary{
