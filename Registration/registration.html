@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+    <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="registration.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
@@ -18,8 +19,8 @@
 
         <div class="nav_bar">
           <ul>
-            <li><a href="../Event/eventpage.html">Event</a></li>
             <li><a href="../Registration/registration.html" id="onlink">Registration</a></li>
+            <li><a href="../Event/eventpage.html">Event</a></li>
             <li><a href="../Booking/Booking.html">Booking</a></li>
             <li><a href="../Contact/Contact.html">Contact</a></li>
           </ul>
@@ -77,44 +78,58 @@
             <br>
             <label for="pw" style="color:white; padding-left: 5px;"><strong>Password</strong></label>
             <br>
-            <input type="password" id="pw" required>
+            <input type="password" id="password" required>
             <br>
             <label for="cpw" style="color:white; padding-left: 5px;"><strong>Confirm Password</strong></label>
             <br>
-            <input type="password" id="cpw" required>
+            <input type="password" id="confirm_password" required>
+            <span id = "message" style="color:red"></span>
             <br>
 
-              <button>Sign Up</button>
-
+            <div class="button">
+              <input class="submit" type="submit" value="Sign Up">
+            </div>
           </div>
         </div>
       </div>
     </div>
   </form>
-    
-    <button onclick="topFunction()" id="TopMenu" title="Go to top"><i class="fas fa-arrow-up"></i> Top</button>
+  <button onclick="topFunction()" id="TopMenu" title="Go to top"><i class="fas fa-arrow-up"></i> Top</button>
 
-<script>
-    var mybutton = document.getElementById("TopMenu");
+<script type="text/javascript">
+  var password = document.getElementById("password");
+  var  confirm_password = document.getElementById("confirm_password");
 
-    window.onscroll = function() {
-      scrollFunction()
-    };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
+  function validatePassword(){
+    if(password.value != confirm_password.value) {
+      confirm_password.setCustomValidity("Passwords Don't Match");
+    } else {
+      confirm_password.setCustomValidity('');
     }
+  }
 
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+  password.onchange = validatePassword;
+  confirm_password.onkeyup = validatePassword;
+
+  var mybutton = document.getElementById("TopMenu");
+
+  window.onscroll = function() {
+    scrollFunction()
+  }
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
     }
-  </script>
-    
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
   </body>
 
   <footer>
