@@ -310,13 +310,13 @@ input.error {
   margin: 0 auto;
 }
 
-.fa {
+.rate .fa {
   padding-top: 10px;
   cursor: pointer;
   font-size: 20px;
 }
 
-.fa:hover{
+.rate .fa:hover{
   color: #99C0C0;
   transition: .3s;
 }
