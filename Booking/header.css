@@ -4,7 +4,7 @@
 video{
   position: absolute;
   width: 100%;
-  opacity:0.5;
+  opacity:0.3;
   height: inherit;
   transform: translateX(-50%) translateY(-29.6%);
   z-index: -1;
