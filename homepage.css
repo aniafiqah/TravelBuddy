@@ -321,6 +321,11 @@ footer .footer li a {
   color: #000;
 }
 
+footer .copyright p {
+  margin-top: -10px;
+  padding-bottom: 28px;
+}
+
 #TopMenu {
   display: none;
   position: fixed;
