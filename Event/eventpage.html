@@ -18,18 +18,17 @@
     <header>
       <div class="tab">
         <nav>
-          <li><a href="notifiction.html">Homepage</a></li>
-          <li><a href="login.html"> Login</a></li>
-          <li><a href="registration.html"> Register </a></li>
+          <li><a href="../index.html">Homepage</a></li>
+          <li><a href="../Login/login.html"> Login</a></li>
         </nav>
       </div>
 
       <div class="nav_bar">
         <ul>
+          <li><a href="../Registration/registration.html">Registration</a></li>
           <li><a id="onlink" href="event.html">Event</a></li>
-          <li><a href="registration.html">Registration</a></li>
-          <li><a href="../Booking/Booking.html">Booking</a></li>
-          <li><a href="Contact.html" >Contact</a></li>
+          <li><a href="../Booking/booking.html">Booking</a></li>
+          <li><a href="../Contact/Contact.html" >Contact</a></li>
         </ul>
       </div>
     </header>
@@ -67,16 +66,13 @@
           <div class="info">
             <h2>SNORKEL WITH THE FISH </h2>
             <p>The session would help the beginners to cover up three aspects that are nescessary to getting the most out of your snorkeling :</p>
-            <p>1.Snorkeling skills</p>
-            <p>2. Best places to go snorkeling</p>
-            <p>3. Snorkeling gear</p>
             <p>The session would be held via Google Meet platform at 10AM  </p>
             <p>The right timing would be inform later in less than 2 weeks </p>
             <p>STAY TUNED !!!!!</p>
           </div>
         </div>
         <div class="slide">
-          <img src="luckydraw.png" alt="">
+          <img src="luckydraw.jpg" alt="">
           <div class="info">
             <h2>LUCKY DRAW CONTEST</h2>
             <p>TERMS AND CONDITIONS :</p>
@@ -89,7 +85,7 @@
           <img src="island1.jpg" alt="">
           <div class="info" >
             <h2>ISLAND HOPPING</h2>
-            <p>Location : Around Pulau Langkawi </p>
+            <p>Location : 4 Island Around Pulau Langkawi </p>
             <p>Date : 20th January 2021 </p>
             <p>Time : 8.00AM - 6.00PM</p>
             <p>Price : RM150 Per Admission</p>
@@ -130,7 +126,7 @@
                 <img src="langkawi1.jpg" alt="Event" style="width:250px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <p><button>Book for Event</button></p>
+                <p><button id="island">Book for Event</button></p>
                 <br>
                 <h1>Island Hopping</h1>
                 <br>
@@ -148,7 +144,7 @@
                 <img src="fishing.jpg" alt="Event" style="width:250px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <p><button>Book for Event</button></p>
+                <p><button id="fishing" >Book for Event</button></p>
                 <br>
                 <h1>Fishing Crossing</h1>
                 <br>
@@ -166,7 +162,7 @@
                 <img src="hunting.jpg" alt="Event" style="width:250px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <p><button>Book for Event</button></p>
+                <p><button id="hunting" >Book for Event</button></p>
                 <br>
                 <h1>Hunting Season</h1>
                 <br>
@@ -190,7 +186,7 @@
                 <img src="forest1.jpg" alt="Event" style="width:250px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <p><button>Book for Event</button></p>
+                <p><button id="nature" >Book for Event</button></p>
                 <br>
                 <h1>Discover the nature</h1>
                 <br>
@@ -208,7 +204,7 @@
                 <img src="expert.jpg" alt="Event" style="width:250px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <p><button>Book for Event</button></p>
+                <p><button id="tourism" >Book for Event</button></p>
                 <br>
                 <h1>Tourism Seminar</h1>
                 <br>
@@ -226,7 +222,7 @@
                 <img src="night.jpg" alt="Event" style="width:250px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <p><button>Book for Event</button></p>
+                <p><button id ="safari">Book for Event</button></p>
                 <br>
                 <h1>Night Safari</h1>
                 <br>
@@ -250,7 +246,7 @@
                 <img src="hiking.jpg" alt="Event" style="width:250px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <p><button>Book for Event</button></p>
+                <p><button id="hike" >Book for Event</button></p>
                 <br>
                 <h1>Hike With Mike</h1>
                 <br>
@@ -268,7 +264,7 @@
                 <img src="malacca.jpg" alt="Event" style="width:250px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <p><button>Book for Event</button></p>
+                <p><button id="malacca" >Book for Event</button></p>
                 <br>
                 <h1>3 Days to the historical Malacca</h1>
                 <br>
@@ -286,7 +282,7 @@
                 <img src="zoo.jpg" alt="Event" style="width:250px;height:300px;">
               </div>
               <div class="flip-card-back">
-                <p><button>Book for Event</button></p>
+                <p><button id="zoo" >Book for Event</button></p>
                 <br>
                 <h1>Zoo Visit</h1>
                 <br>
@@ -303,12 +299,181 @@
 
     </div>
 
+    <!-- APPEND BY MERAN -->
+    <div id="myModal" class="modal">
+
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <div class="content">
+            <div class="title"><br>
+
+              <div class="logo">
+                <img src="logo2.png" alt="travelbuddy" width="100px" height="100px">
+                <h1 id="proname">TRAVELBUDDY</h1>
+              </div><br>
+
+              <h2 style="text-align: center; letter-spacing: 10px;">PROMO BOOKING</h2>
+              <br><br><br><br><br>
+
+            </div><br>
+
+            <div class="tourguide">
+              <div class="tourguide-box">
+                <div class="tour-left" style="overflow-y: scroll; height:420px;">
+                  <p style="padding-left: 15px; ">SELECT TOUR GUIDE</p>
+                  <div class="tour-box">
+                    <div class="tour-details">
+                      <img src="abdul.jpg" alt="abdul_rauf">
+                      <h3>ABDUL MISBUN</h3>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <p><em>My name is Abdul, i know hidden gem for foods. Malaysia is all about good foods :)</em></p>
+
+                      <label class="select-radio">
+                        <input type="radio" name="radio" value="rauf">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+
+                    <div class="tour-details">
+                      <img src="jackma.jpg" alt="abdul_rauf">
+                      <h3>LIM KOK WENG</h3>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <p><em>People often call me uncle Lim, I like to drive around and take people places.</em></p>
+
+                      <label class="select-radio">
+                        <input type="radio" name="radio" value="kokweng">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+
+                    <div class="tour-details">
+                      <img src="tony.jpg" alt="abdul_rauf">
+                      <h3>PRAVIN RAJ</h3>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <p><em>My name is Pravin, I'm part time DJ, I will offer you a good choices of songs to compliment your vacation.</em></p>
+
+                      <label class="select-radio">
+                        <input type="radio" name="radio" value="pravin">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+
+                    <div class="tour-details">
+                      <img src="lando.jpg" alt="abdul_rauf">
+                      <h3>LANDO NORRIS</h3>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <p><em>My name is Lando Norris, i'm fun and cheerful. people loves my jokes hehe xD</em></p>
+
+                      <label class="select-radio">
+                        <input type="radio" name="radio" value="lando">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+
+
+
+                  </div>
+                </div>
+                <div class="tour-right">
+                  <div class="select-random">
+                    <p style="padding-left: 15px;"><strong>SELECT RANDOM TOUR GUIDE</strong></p>
+                    <label class="select-radio">
+                      <input type="radio" name="radio" value="random">
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="payment">
+              <div class="payment-box">
+                <div class="fl-left">
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                    <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                  </div>
+                  <label for="cname">NAME ON CARD</label>
+                  <input required type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">CREDIT CARD NUMBER</label>
+                  <input required type="text" id="ccnum" name="cardnumber" placeholder="1111222233334444">
+                  <label for="expmonth">EXP MONTH</label>
+                  <input required type="text" id="expmonth" name="expmonth" placeholder="01-12">
+                  <div class="exp-left" style="float:left;">
+                    <label for="expyear">EXP YEAR</label>
+                    <input required type="text" id="expyear" name="expyear" placeholder="2018">
+                  </div>
+                  <div class="exp-right" style="float:left;">
+                    <label for="cvv">CVV </label>
+                    <label for="  cvv"></label>
+                    <input required type="text" id="cvv" name="cvv" placeholder="352">
+                  </div>
+
+
+
+                </div>
+
+                <div class="fl-right">
+                  <button type="button" id="button1" name="button" onclick="location.href='https://meran0.github.io/TravelBuddy/';"><strong>BOOK & GO TO HOMEPAGE</strong>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  }<!-- END OF APPEND -->
+
+
+    <br>
+    <br>
+    <br>
+
+
     <br>
     <br
-    <footer class="footer">
-      <h3>©Copyright TravelBuddy 2020</h3>
-    </footer>
-      <script src="eventpage.js."></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <footer>
+    <div class="footer">
+      <ul>
+        <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </div>
+    <p>Copyright ©️2020 TravelBuddy</p>
+  </footer>
       <script src="script.js"></script>
   </body>
 </html>
