@@ -371,15 +371,9 @@ footer .footer li a {
 @media only screen and (max-width: 1028px) {
   /* For half screen: */
 
-  header, .container, .nav_bar, .rate {
+  header, .container, .nav_bar, .rate, .tab{
     width : 100%;
   }
-
-
-.tab {
-  width: 100%;
-  display: none;
-}
 
 .rate {
   display: inline-block;
