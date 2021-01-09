@@ -45,6 +45,10 @@
   <button onclick="topFunction()" id="TopMenu" title="Go to top"><i class="fas fa-arrow-up"></i> Top</button>
 
   <div class="content">
+
+    <video src="videofile.ogg" autoplay muted loop>
+
+    </video>
 <div class="title"><br>
 
   <div class="logo">
@@ -52,7 +56,6 @@
     <h1 id="proname">TRAVELBUDDY</h1>
   </div><br>
 
-  <p style="text-align: center; letter-spacing: 10px;">BOOKING</p>
   <br><br><br><br><br>
 
 </div><br>
@@ -140,7 +143,7 @@
               <p><em>My name is Abdul, i know hidden gem for foods. Malaysia is all about good foods :)</em></p>
 
               <label class="select-radio">
-                <input type="radio" name="radio" value="rauf">
+                <input type="radio" name="radio" value="ABDUL MISBUN">
                 <span class="checkmark"></span>
               </label>
             </div>
@@ -156,7 +159,7 @@
               <p><em>People often call me uncle Lim, I like to drive around and take people places.</em></p>
 
               <label class="select-radio">
-                <input type="radio" name="radio" value="kokweng">
+                <input type="radio" name="radio" value="LIM KOK WENG">
                 <span class="checkmark"></span>
               </label>
             </div>
@@ -172,7 +175,7 @@
               <p><em>My name is Pravin, I'm part time DJ, I will offer you a good choices of songs to compliment your vacation.</em></p>
 
               <label class="select-radio">
-                <input type="radio" name="radio" value="pravin">
+                <input type="radio" name="radio" value="PRAVIN RAJ">
                 <span class="checkmark"></span>
               </label>
             </div>
@@ -188,7 +191,7 @@
               <p><em>My name is Lando Norris, i'm fun and cheerful. people loves my jokes hehe xD</em></p>
 
               <label class="select-radio">
-                <input type="radio" name="radio" value="lando">
+                <input type="radio" name="radio" value="LANDO NORRIS">
                 <span class="checkmark"></span>
               </label>
             </div>
@@ -258,26 +261,46 @@
             <div class="modal-content">
               <span class="close">&times;</span>
               <div class="modal-head">
-                <div class="logo">
+                <div class="logo" id="logo2">
                   <img src="./img/logo2.png" alt="travelbuddy" width="100px" height="100px">
                   <h1 id="proname">TRAVELBUDDY</h1>
+
                 </div><br>
               </div>
               <div class="modal-body">
-                <h3>BOOKING DETAILS---</h3> <br>
-                <h3>Booking No: </h3> <h5 id="bookingno-text"></h5><br>
-                <h3>Date: </h3>  <h5 id="datebook-text"></h5><br>
+                <br>
+                <hr>
+                <br>
 
-                <br> <h3>YOUR DETAILS---</h3> <br>
-                <h3>Name: </h3>  <h5 id="name-text"></h5><br>
-                <h3>Country: </h3>  <h5 id="country-text"></h5><br>
-                <h3>State: </h3> <h5 id="state-text"></h5><br>
-                <h3>Cities: </h3> <h5 id="cities-text"></h5><br>
-                <h3>Pax: </h3> <h5 id="pax-text"></h5><br>
-                <h3>Date: </h3>  <h5 id="date-text"></h5><br>
+                <div class="find-location-box">
+                  <div class="fl-left">
+                    <br> <h3>--------------------YOUR DETAILS--------------------</h3> <br>
+                    <h3>Name: </h3>  <h5 id="name-text"></h5><br>
+                    <h3>Country: </h3>  <h5 id="country-text"></h5> <br>
+                    <h3>State: </h3> <h5 id="state-text"></h5><br>
+                    <h3>Cities: </h3> <h5 id="cities-text"></h5><br>
+                    <h3>Pax: </h3> <h5 id="pax-text"></h5><br>
+                    <h3>Date: </h3>  <h5 id="date-text"></h5><br>
 
-                <br><h3>TOUR GUIDE DETAILS---</h3> <br>
-                <h3>Tour guide: </h3> <h5 id="tour-text"></h5> <br> <br>
+
+
+                  </div>
+                  <div class="fl-right">
+                    <h3>--------------------BOOKING DETAILS--------------------</h3> <br>
+                    <h3>Booking No: </h3> <h5 id="bookingno-text"></h5><br>
+                    <h3>Date: </h3>  <h5 id="datebook-text"></h5><br>
+
+                    <br><h3>--------------------TOUR GUIDE DETAILS--------------------</h3> <br>
+                    <h3>Tour guide: </h3> <h5 id="tour-text"></h5> <br> <br>
+
+                  </div>
+
+                </div>
+
+
+
+
+
                 <button type="button" id="button2" name="button" onclick="location.href='https://meran0.github.io/TravelBuddy/';"><strong>GO TO HOMEPAGE</strong>
                   <i class="fa fa-home" aria-hidden="true"></i>
                 </button>
