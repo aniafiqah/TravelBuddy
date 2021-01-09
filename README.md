@@ -249,3 +249,8 @@ footer .footer li a {
   color: #000;
 }
 ```
+
+## Resources
+
+Video : Malaysia timelapse / hyperlapse by Duntakk
+Link : [Youtube](https://www.youtube.com/watch?v=Le7QAafIRj8)
