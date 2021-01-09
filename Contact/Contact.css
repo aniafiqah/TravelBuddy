@@ -375,16 +375,10 @@ footer .footer li a {
     width : 100%;
   }
 
-header {
-  height: 22.6vh;
-}
 
-.nav_bar{
-  display: flex;
-  position: center;
-}
 .tab {
   width: 100%;
+  display: none;
 }
 
 .rate {
