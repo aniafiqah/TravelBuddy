@@ -367,3 +367,23 @@ footer .footer li {
 footer .footer li a {
   color: #000;
 }
+
+@media only screen and (max-width: 1028px) {
+  /* For half screen: */
+
+  header, .container, .nav_bar, .rate {
+    width : 100%;
+  }
+
+.tab {
+  width: 100%;
+  display: none;
+}
+
+.rate {
+  display: inline-block;
+}
+.rate .fa{
+  margin-left: 10px;
+  margin-right: 10px;
+}
