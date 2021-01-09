@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 
+video{
+  position: absolute;
+  width: 100%;
+  opacity:0.3;
+  height: inherit;
+  transform: translateX(-50%) translateY(-29.6%);
+  z-index: -1;
+  height: 520%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 * {
   font-family: 'Jost', sans-serif;
   list-style: none;
