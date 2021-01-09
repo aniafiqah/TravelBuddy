@@ -19,7 +19,23 @@ var mybutton = document.getElementById("TopMenu");
 
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
+var bookingno = document.getElementById("bookingno-text");
+var datenow = document.getElementById("datebook-text");
 var countryy = document.getElementById("country-text");
+var statee = document.getElementById("state-text");
+var citiess = document.getElementById("cities-text");
+var paxx = document.getElementById("pax-text");
+var datee = document.getElementById("date-text");
+var tourr = document.getElementById("tour-text");
+var namacust = document.getElementById("name-text");
+
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = dd + '/' + mm + '/' + yyyy;
+
 
 function getlength(number) {
     return number.toString().length;
@@ -43,7 +59,7 @@ $("#button1").click(function(e) {
 
   console.log("cvv length: "+ getlength(cvv));
   console.log("year: "+year);
-
+/*
     if($("#Country").val()==""||
     $("#State").val()==""||
     $("#Cities").val()==""||
@@ -72,7 +88,7 @@ $("#button1").click(function(e) {
     }
 
     else{
-
+*/
   modal.style.display = "block";
 
   console.log("masuk else {");
@@ -89,9 +105,19 @@ $("#button1").click(function(e) {
   console.log("cvv: " + $("#cvv").val());
 
 
-  countryy.textContent = $("#Country").val();
 
-  }
+  bookingno.textContent = "B012K";
+  datenow.textContent = today;
+
+  countryy.textContent = $("#Country").val();
+  statee.textContent = $("#State").val();
+  citiess.textContent = $("#Cities").val();
+  paxx.textContent = $("#pax").val();
+  datee.textContent = $("#birthday").val();
+  tourr.textContent = $("input[name='radio']:checked").val();
+  namacust.textContent = $("#cname").val();
+
+//  }
 
 });
 

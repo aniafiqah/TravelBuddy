@@ -2,6 +2,7 @@ var slides = document.querySelectorAll('.slide');
 var btns = document.querySelectorAll('.btn');
 let currentSlide = 1;
 
+
 // Javascript for image slider manual navigation
 var manualNav = function(manual){
   slides.forEach((slide) => {
@@ -69,3 +70,352 @@ function openPage(pageName,elmnt,color) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+/*  -------- APPEND BY MERAN ------- */
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function getlength(number) {
+    return number.toString().length;
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+document.getElementById("island").addEventListener("click", myFunction);
+
+
+function myFunction() {
+
+  console.log("island clicked");
+
+  var month = parseInt(document.getElementById("expmonth").value);
+  var year = parseInt(document.getElementById("expyear").value);
+  var cvv = parseInt(document.getElementById("cvv").value);
+  var ccnum = parseInt(document.getElementById("ccnum").value);
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
+
+  modal.style.display = "block";
+
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function getlength(number) {
+    return number.toString().length;
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+document.getElementById("fishing").addEventListener("click", myFunction);
+
+
+function myFunction() {
+
+  console.log("fishing clicked");
+
+  var month = parseInt(document.getElementById("expmonth").value);
+  var year = parseInt(document.getElementById("expyear").value);
+  var cvv = parseInt(document.getElementById("cvv").value);
+  var ccnum = parseInt(document.getElementById("ccnum").value);
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
+
+  modal.style.display = "block";
+
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function getlength(number) {
+    return number.toString().length;
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+document.getElementById("hunting").addEventListener("click", myFunction);
+
+
+function myFunction() {
+
+  console.log("hunting clicked");
+
+  var month = parseInt(document.getElementById("expmonth").value);
+  var year = parseInt(document.getElementById("expyear").value);
+  var cvv = parseInt(document.getElementById("cvv").value);
+  var ccnum = parseInt(document.getElementById("ccnum").value);
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
+
+  modal.style.display = "block";
+
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function getlength(number) {
+    return number.toString().length;
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+document.getElementById("nature").addEventListener("click", myFunction);
+
+
+function myFunction() {
+
+  console.log("nature clicked");
+
+  var month = parseInt(document.getElementById("expmonth").value);
+  var year = parseInt(document.getElementById("expyear").value);
+  var cvv = parseInt(document.getElementById("cvv").value);
+  var ccnum = parseInt(document.getElementById("ccnum").value);
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
+
+  modal.style.display = "block";
+
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function getlength(number) {
+    return number.toString().length;
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+document.getElementById("tourism").addEventListener("click", myFunction);
+
+
+function myFunction() {
+
+  console.log("tourism clicked");
+
+  var month = parseInt(document.getElementById("expmonth").value);
+  var year = parseInt(document.getElementById("expyear").value);
+  var cvv = parseInt(document.getElementById("cvv").value);
+  var ccnum = parseInt(document.getElementById("ccnum").value);
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
+
+  modal.style.display = "block";
+
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function getlength(number) {
+    return number.toString().length;
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+document.getElementById("safari").addEventListener("click", myFunction);
+
+
+function myFunction() {
+
+  console.log("safari clicked");
+
+  var month = parseInt(document.getElementById("expmonth").value);
+  var year = parseInt(document.getElementById("expyear").value);
+  var cvv = parseInt(document.getElementById("cvv").value);
+  var ccnum = parseInt(document.getElementById("ccnum").value);
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
+
+  modal.style.display = "block";
+
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function getlength(number) {
+    return number.toString().length;
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+document.getElementById("hike").addEventListener("click", myFunction);
+
+
+function myFunction() {
+
+  console.log("hike clicked");
+
+  var month = parseInt(document.getElementById("expmonth").value);
+  var year = parseInt(document.getElementById("expyear").value);
+  var cvv = parseInt(document.getElementById("cvv").value);
+  var ccnum = parseInt(document.getElementById("ccnum").value);
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
+
+  modal.style.display = "block";
+
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function getlength(number) {
+    return number.toString().length;
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+document.getElementById("malacca").addEventListener("click", myFunction);
+
+
+function myFunction() {
+
+  console.log("malacca clicked");
+
+  var month = parseInt(document.getElementById("expmonth").value);
+  var year = parseInt(document.getElementById("expyear").value);
+  var cvv = parseInt(document.getElementById("cvv").value);
+  var ccnum = parseInt(document.getElementById("ccnum").value);
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
+
+  modal.style.display = "block";
+
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function getlength(number) {
+    return number.toString().length;
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+document.getElementById("zoo").addEventListener("click", myFunction);
+
+
+function myFunction() {
+
+  console.log("zoo clicked");
+
+  var month = parseInt(document.getElementById("expmonth").value);
+  var year = parseInt(document.getElementById("expyear").value);
+  var cvv = parseInt(document.getElementById("cvv").value);
+  var ccnum = parseInt(document.getElementById("ccnum").value);
+  console.log("button clicked1");
+
+  console.log("cvv length: "+ getlength(cvv));
+  console.log("year: "+year);
+
+
+  modal.style.display = "block";
+
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
