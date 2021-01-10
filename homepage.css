@@ -244,7 +244,7 @@ ul li {
   transition: 0.3s;
 }
 
-.past-reviews .content p {
+.past-reviews .review-s p {
   max-width: 30em;
   color: white;
   text-align:center;
@@ -253,15 +253,15 @@ ul li {
   line-height: 145%;
   font-size: 2em;
   font-variant: small-caps;
+  height: 170px;
 }
 
-.content button {
-  display: flex;
+.gen button {
   justify-content: center;
-  align-items: center;
+  margin: 5px auto;
+  margin-left: 40%;
   text-align: center;
   width: 20%;
-  margin-top: 20px;
   padding: 12px;
   border: 0px solid white;
   border-radius: 20px;
@@ -269,6 +269,11 @@ ul li {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   transition: 0.3s;
   cursor: pointer;
+}
+
+.gen button:hover {
+  background-color: #88906B;
+  color: white;
 }
 
 .allign {
