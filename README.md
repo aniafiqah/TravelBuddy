@@ -32,4 +32,4 @@ Link : [Youtube](https://youtu.be/Le7QAafIRj8?t=29)
 
 Booking Data Set : malaysian-states by Muhammad Hazeem
 
-LInk : [GitHub](https://github.com/hazz1925/malaysian-states)
+Link : [GitHub](https://github.com/hazz1925/malaysian-states)
