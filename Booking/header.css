@@ -42,7 +42,6 @@ background: linear-gradient(180deg, rgba(235,222,212,1) 0%, rgba(189,189,189,1) 
   padding: 0;
   border-bottom: 2px solid white;
   position: relative;
-  z-index: 99;
 }
 
 .nav_bar {
@@ -572,7 +571,6 @@ margin-left: 30px;
   float: left;
   font-size: 16px;
   font-weight: bold;
-  z-index: 99;
   position: relative;
 }
 
