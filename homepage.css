@@ -24,7 +24,6 @@ video{
 }
 
 body {
-  /*background-color: #f7f6f6;*/
   background: linear-gradient(180deg, rgba(235, 222, 212, 1) 0%, rgba(173, 212, 212, 1) 50%, rgba(189, 189, 189, 1) 100%);
   width: auto;
   margin: 0 auto;
@@ -74,6 +73,14 @@ nav li a {
   border-radius: 25px;
   display: flex;
   justify-content: space-between;
+}
+
+.to-topplace i{
+  color: black;
+}
+
+.to-topplace i:hover{
+  color: #3d7d7c;
 }
 
 .search .input {
@@ -158,7 +165,7 @@ ul li {
   padding-top: 30px;
   position: absolute;
   top: 25%;
-  left: 25%;
+  left: 26.5%;
   transform: translate(-50%; -50%);
 }
 
@@ -192,6 +199,10 @@ ul li {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+.description u {
+  text-decoration: underline;
 }
 
 .topplace h3 {
@@ -302,7 +313,7 @@ footer {
   height: 80px;
   /*background-color: #ebded4;*/
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 footer .footer {
@@ -311,7 +322,7 @@ footer .footer {
 
 footer .footer li {
   list-style: none;
-  margin: 10px 20px;
+  margin: 5px 20px;
   display: inline-block;
   font-size: 20px;
   /* padding: 20px 10px; */
@@ -320,6 +331,11 @@ footer .footer li {
 
 footer .footer li a {
   color: #000;
+}
+
+footer .copyright p {
+  margin-top: -10px;
+  padding-bottom: 28px;
 }
 
 #TopMenu {
@@ -342,4 +358,36 @@ footer .footer li a {
 
 #TopMenu:hover {
   background-color: #555;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  line-height: 20px;
+}
+
+.logo #text h3 {
+  font-size: 30px;
+}
+
+.logo #text p {
+  font-size: 15px;
 }

@@ -59,10 +59,29 @@
       </div>
 
       <div class="title">
+
         <div class="logo">
           <img src="logo.png" alt="travelbuddy" width="200px" height="200px">
-          <h1 id="proname">TRAVEL<br/><br>BUDDY</h1>
-        </div>
+
+          <!--Overlay for About Us -->
+          <div id="overlay" onclick="off()">
+            <div id="text">
+              <h3>About Us</h3><br><hr><br>
+              Travel Buddy website system are revolving around <br>
+              tourism conceptualization that focuses on the <br>
+              topic of the tourist guide system as the focal point. <br><br>
+
+              Our website is focusing on booking system<br>
+              for the tourist guide based on the packages<br>
+              and location provided by the customer. <br><br>
+
+             Our website also provides the most viewed <br>
+             location and also previous reviews from our past user so <br>
+             they have trouble-free moments to infer their decision. <br>
+           </div>
+         </div>
+         <h1 onclick="on()" id="proname">TRAVEL<br/><br>BUDDY</h1>
+        </div><br>
       </div>
 
       <!---Description of the Website--->
@@ -71,12 +90,17 @@
         to continue traveling the globe and interacting along the way with others —
         and we do! <br><br>The focal points of all our adventures are to enhance your journey
         with authentic experiences, genuine cultural exchange and meaningful exploration.
-        <br><br>Get the best deals with Travel Buddy now!</p>
+        <br><br>Get the best deals with <i><u>TravelBuddy</u></i> now!</p>
+        <br><br>
+        <div class="to-topplace">
+          <a href="#topplace"> <i class="fa fa-arrow-circle-down fa-2x" aria-hidden="true"></i> </a>
+        </div>
+
       </div>
     </header>
 
     <!---Top Visited Place--->
-    <div class="topplace">
+    <div class="topplace" id="topplace" >
       <h3>Top Visited Place in Malaysia</h3>
     </div>
     <div class="placeimg">
@@ -146,7 +170,9 @@
           <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
         </ul>
       </div>
-      <p>Copyright ©️2020 TravelBuddy</p>
+      <div class="copyright">
+        <p>Copyright ©️2020 TravelBuddy</p>
+      </div>
     </footer>
 
       <script src="homepage.js"></script>

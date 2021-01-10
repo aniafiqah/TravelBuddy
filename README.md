@@ -1,9 +1,16 @@
-# TravelBuddy:airplane:-----:warning:UNDER CONSTRUCTION, SILA EDIT:warning:
+# TravelBuddy:airplane:
 
-TravelBuddy is bla bla.
+:globe_with_meridians:[TravelBuddy](https://meran0.github.io/TravelBuddy/) website system are revolving around
+tourism conceptualization that focuses on the
+topic of the tourist guide system as the focal point.
 
-:globe_with_meridians:[TravelBuddy](https://meran0.github.io/TravelBuddy/) .
+Our website is focusing on booking system
+for the tourist guide based on the packages
+and location provided by the customer.
 
+Our website also provides the most viewed
+location and also previous reviews from our past user so
+they have trouble-free moments to infer their decision
 
 Group Members:
 * MUHAMMAD IKRAM BIN IQBAL FITHRI   
@@ -17,235 +24,8 @@ Group Members:
 * NUR QHAISARA BINTI MOHD ZAKZAM
   * 1913074 | 
 
-## Header
+## Resources
 
-HTML
-```html
-<body>
-    <header>
-    <div class="tab">
-      <nav>
-        <li><a href="../index.html">Homepage</a></li>
-        <li><a href="../Login/login.html"> Login</a></li>
-        <li><a href="../Registration/registration.html"> Register </a></li>
-      </nav>
-    </div>
+Video : Malaysia timelapse / hyperlapse by Duntakk
 
-    <div class="nav_bar">
-      <ul>
-        <li><a href="../Event/eventpage.html">Event</a></li>
-        <li><a href="../Registration/registration.html">Registration</a></li>
-        <li><a href="../Booking/Booking.html">Booking</a></li>
-        <li><a href="../Contact/Contact.html" id="onlink">Contact</a></li>
-      </ul>
-    </div>
-  </header>
-  </body>
-```
-
-CSS
-```css
-@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
-
-      * {
-        font-family: 'Jost', sans-serif;
-        list-style: none;
-        text-decoration: none;
-        margin: 0px;
-        padding: 0px;
-      }
-
-      body {
-        width: auto;
-        margin: 0 auto;
-        background: #f7f6f6;
-        box-sizing: border-box;
-        overflow: auto;
-      }
-
-      header {
-  background-color: #ebded4;
-  background-size: cover;
-  background-position: center;
-  height: 15vh;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-.nav_bar {
-  margin: 0 auto;
-  width: 860px;
-  padding: 0px 20px 0px 20px;
-  height: 64px;
-  margin-left: 50px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-
-.nav_bar ul {
-  padding: 0;
-  list-style: none;
-}
-
-.nav_bar ul li {
-  margin-top: 8.8vh;
-  float: left;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.nav_bar ul li a {
-  text-decoration: none;
-  color: black;
-  background: #fff;
-  border-bottom: none;
-  padding: 22px 20px 20px 20px;
-  -webkit-border-top-right-radius: 10px;
-  -webkit-border-top-left-radius: 10px;
-  -moz-border-radius-topLeft: 10px;
-  -moz-border-radius-topRight: 10px;
-  width: 100px;
-  display: block;
-  text-align: center;
-  border-style: solid;
-  border-color: black;
-  border-bottom: none;
-  height: 2px;
-}
-
-.nav_bar ul li a:hover {
-  text-decoration: none;
-  color: #fff;
-  background: #add4d4;
-  -moz-transition: background-color 200ms ease-in;
-  -webkit-transition: background-color 200ms ease-in;
-  -ms-transition: background-color 200ms;
-}
-
-.nav_bar ul li a#onlink {
-  background: #add4d4;
-  color: #fff;
-  border-bottom: none;
-}
-
-.nav_bar ul li a#onlink:hover {
-  color: #000000;
-}
-
-nav {
-  float: right;
-  list-style-type: none;
-  margin-top: 25px;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav li a {
-  text-decoration: none;
-  color: #000000;
-  padding: 5px 20px;
-  transition: 0.5s;
-  margin-top: 5px;
-  margin-right: 10px;
-}
-```
-
-## Title & Logo
-
-HTML
-```html
-<div class="title"><br>
-
-    <div class="logo">
-      <img src="travel1.png" alt="travelbuddy" width="100px" height="100px">
-      <h1 id="proname">TRAVELBUDDY</h1>
-    </div><br>
-
-    <p id="con">C O N T A C T</p>
-    <br><br><br><br><br>
-
-  </div><br>
-```
-
-CSS
-```css
-.title {
-  float: above;
-  text-align: center;
-  line-height: 0.5;
-  padding-top: 30px;
-}
-
-.title p {
-  letter-spacing: 5px;
-}
-
-.title .logo {
-  margin-top: 20px;
-  width: 100%;
-  display: flex;
-  /* margin: 0 auto; */
-  /* padding-left: 25%; */
-  justify-content: center;
-  align-items: center;
-}
-
-#proname {
-  font-family: 'Schoolbell', cursive;
-  font-size: 5em;
-  letter-spacing: 10px;
-}
-
-#prename {
-  font-size: 3em;
-}
-```
-
-
-## Footer
-
-HTML
-```html
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-<footer>
-  <div class="footer">
-    <ul>
-      <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
-      <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
-    </ul>
-  </div>
-  <p>Copyright ©️2020 TravelBuddy</p>
-</footer>
-```
-
-CSS
-```css
-footer {
-  height: 80px;
-  background-color: #ebded4;
-  text-align: center;
-  padding: 10px;
-}
-
-footer .footer {
-    text-align: center;
-}
-
-footer .footer li {
-  list-style: none;
-  margin: 10px 20px;
-  display: inline-block;
-  font-size: 20px;
-  /* padding: 20px 10px; */
-  transition: .5s;
-}
-
-footer .footer li a {
-  color: #000;
-}
-```
+Link : [Youtube](https://www.youtube.com/watch?v=Le7QAafIRj8)
