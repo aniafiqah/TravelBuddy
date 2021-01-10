@@ -1,6 +1,7 @@
-# TravelBuddy:airplane:-----:warning:UNDER CONSTRUCTION, SILA EDIT:warning:
+# TravelBuddy:airplane:
 
-TravelBuddy is bla bla.
+TravelBuddy is a Travel booking website that emphasis in tourist experience on their stay.
+TravelBuddy offers many exciting deals,events and also cheerfull tour guide that will spark your vacation.
 
 :globe_with_meridians:[TravelBuddy](https://meran0.github.io/TravelBuddy/) .
 
