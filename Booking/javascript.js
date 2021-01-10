@@ -59,7 +59,7 @@ $("#button1").click(function(e) {
 
   console.log("cvv length: "+ getlength(cvv));
   console.log("year: "+year);
-/*
+
     if($("#Country").val()==""||
     $("#State").val()==""||
     $("#Cities").val()==""||
@@ -88,7 +88,7 @@ $("#button1").click(function(e) {
     }
 
     else{
-*/
+
   modal.style.display = "block";
 
   console.log("masuk else {");
@@ -117,7 +117,7 @@ $("#button1").click(function(e) {
   tourr.textContent = $("input[name='radio']:checked").val();
   namacust.textContent = $("#cname").val();
 
-//  }
+  }
 
 });
 
