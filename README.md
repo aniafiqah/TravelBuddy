@@ -28,4 +28,4 @@ Group Members:
 
 Video : Malaysia timelapse / hyperlapse by Duntakk
 
-Link : [Youtube](https://www.youtube.com/watch?v=Le7QAafIRj8)
+Link : [Youtube](https://youtu.be/Le7QAafIRj8?t=29)
