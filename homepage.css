@@ -201,6 +201,10 @@ ul li {
   letter-spacing: 2px;
 }
 
+.description u {
+  text-decoration: underline;
+}
+
 .topplace h3 {
   font-size: 25px;
   text-align: center;
