@@ -75,6 +75,14 @@ nav li a {
   justify-content: space-between;
 }
 
+.to-topplace i{
+  color: black;
+}
+
+.to-topplace i:hover{
+  color: #3d7d7c;
+}
+
 .search .input {
   border-style: none;
   outline: 0;
